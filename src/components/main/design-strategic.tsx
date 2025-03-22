@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const DesignStrategic = () => {
   return (
-    <section className="flex flex-col sm:flex-row">
+    <div className="flex flex-col sm:flex-row">
       <picture>
         <source
           media="(min-width:1024px)"
@@ -41,7 +41,7 @@ const DesignStrategic = () => {
           </Link>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 export default DesignStrategic;

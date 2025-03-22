@@ -2,11 +2,11 @@ const OurApproach = () => {
   return (
     <section className="relative sm:flex">
       <div className="hidden bg-white pr-[0.63rem] sm:block sm:w-2/5 sm:pt-36 sm:pl-8 lg:pt-48">
-        <h2 className="relative z-50 w-[17.5625rem] text-[2rem] leading-10 font-extrabold text-black lg:left-25 lg:w-[33.75rem] lg:text-[3.5rem] lg:leading-16">
+        <h2 className="absolute z-50 w-[17.5625rem] text-[2rem] leading-10 font-extrabold text-black lg:left-25 lg:w-[33.75rem] lg:text-[3.5rem] lg:leading-16">
           Our approach for creating a winning brand
         </h2>
       </div>
-      <div className="space-y-12 bg-[#F94F4F] px-6 py-24 sm:relative sm:-top-35 sm:z-40 sm:w-3/5 sm:py-[7.5rem] sm:pl-[5.63rem] lg:py-[12.5rem] lg:pl-[13.81rem]">
+      <div className="z-40 space-y-12 bg-[#F94F4F] px-6 py-24 sm:absolute sm:-top-35 sm:right-0 sm:z-50 sm:w-3/5 sm:py-[7.5rem] sm:pl-[5.63rem] lg:py-[12.5rem] lg:pl-[13.81rem]">
         {/* Title */}
         <div className="w-[20.4375rem] sm:hidden">
           <h2 className="text-[2rem] leading-10 font-extrabold text-white">
